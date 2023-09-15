@@ -1,0 +1,155 @@
+body {
+  background: url("../bg.png");
+  height: 100vh;
+}
+
+.img {
+  height: 6rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+
+.hero-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero.is-info {
+  background-color: #3bb3e6;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.flag-icon {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 3rem;
+}
+.flag-icon a img {
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.body {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field.is-grouped {
+  justify-content: center;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.recaptcha {
+  margin-top: 1rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loginButton {
+  margin-top: 1rem;
+
+  background-color: #3bb3e6;
+  color: white;
+  padding: 2.5% 5% 2.5% 5%;
+  border-radius: 2rem;
+  transition: 1s;
+}
+
+.loginButton:hover {
+  color: aliceblue;
+  background-color: #297494;
+  transition: 1s;
+}
+
+.signinButton {
+  background-color: #7acef188;
+  border-radius: 2rem;
+  padding: 2% 5% 2% 5%;
+}
+
+.forgot {
+  font-size: 0.8rem;
+  color: #3387ac;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.noSignButton {
+  padding: 2% 5% 2% 5%;
+  background-color: #d80027;
+  color: white;
+  border-radius: 2rem;
+  transition: 1s;
+  margin-right: 0.3rem;
+}
+
+.noSignButton:hover {
+  background-color: #99001c;
+  transition: 1s;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.signInBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.sign {
+  width: 70%;
+}
+.cardButtons {
+  margin-top: 2rem;
+}
+.cardButtons button {
+  margin-right: 1rem;
+  background-color: #3bb3e6;
+  padding: 1% 3% 1% 3%;
+  color: white;
+  border-radius: 10rem;
+  border: none;
+  font-family: "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.textAndBack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textAndBack a img {
+  width: 3rem;
+  margin-top: 0.5rem;
+}
